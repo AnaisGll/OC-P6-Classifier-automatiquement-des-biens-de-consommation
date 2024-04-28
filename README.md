@@ -14,3 +14,10 @@ Il devient nécessaire d'automatiser cette tâche d‘attribution de la catégor
 Le jeu de données se compose de 1 fichier csv. C’est un jeu de données de 1050 articles comportant divers informations à leurs sujets tels que le nom du produit, une description, le lien vers l’articles etc…
 
 Ce jeu de données est accompagné d’un dossier de 1050 images, correspondant chacune à un article du fichier csv.
+
+
+Les livrables se composent de :
+- Un ou des notebooks (ou des fichiers .py) contenant les fonctions permettant le prétraitement et la feature extraction des données textes et images 
+- Un notebook de classification supervisée des images
+- Un script Python (notebook ou fichier .py) de test de l’API et le fichier au format “csv” contenant les produits extraits
+- Un support de présentation
