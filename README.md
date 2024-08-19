@@ -7,23 +7,23 @@ PLace de Marché, une entreprise anglophone, souhaite lancer une marketplace e-c
 1) Réaliser, dans une première itération, une étude de faisabilité d'un moteur de classification d'articles, basé sur une image et une description, pour l'automatisation de l'attribution de la catégorie de l'article.
 
 2) Analyser les descriptions textuelles et les images des produits, au travers :
-  - Un prétraitement des données texte ou image suivant le cas 
-  - Une extraction de features 
-  - Une réduction en 2 dimensions, afin de projeter les produits sur un graphique 2D, sous la forme de points dont la couleur correspondra à la catégorie réelle 
-  - Analyse du graphique afin d’en déduire ou pas, à l’aide des descriptions ou des images, la faisabilité de regrouper automatiquement des produits de même catégorie 
-  - Réalisation d’une mesure pour confirmer ton analyse visuelle, en calculant la similarité entre les catégories réelles et les catégories issues d’une segmentation en clusters.
+    - Un prétraitement des données texte ou image suivant le cas 
+    - Une extraction de features 
+    - Une réduction en 2 dimensions, afin de projeter les produits sur un graphique 2D, sous la forme de points dont la couleur correspondra à la catégorie réelle 
+    - Analyse du graphique afin d’en déduire ou pas, à l’aide des descriptions ou des images, la faisabilité de regrouper automatiquement des produits de même catégorie 
+    - Réalisation d’une mesure pour confirmer ton analyse visuelle, en calculant la similarité entre les catégories réelles et les catégories issues d’une segmentation en clusters.
 
 3) Suivant cette approche, démontrer la faisabilité de regrouper automatiquement des produits de même catégorie
 
 4) Extraire les features texte :
-  - Type “bag-of-words”, comptage simple de mots et Tf-idf ;
-  - Une approche de type word/sentence embedding classique avec Word2Vec (ou Glove ou FastText) ;
-  - Une approche de type word/sentence embedding avec BERT ;
-  - Une approche de type word/sentence embedding avec USE (Universal Sentence Encoder).
+    - Type “bag-of-words”, comptage simple de mots et Tf-idf ;
+    - Une approche de type word/sentence embedding classique avec Word2Vec (ou Glove ou FastText) ;
+    - Une approche de type word/sentence embedding avec BERT ;
+    - Une approche de type word/sentence embedding avec USE (Universal Sentence Encoder).
 
 5) Extraire les features image, il sera nécessaire de mettre en œuvre :
-  - Un algorithme de type SIFT 
-  - Un algorithme de type CNN Transfer Learning.
+    - Un algorithme de type SIFT 
+    - Un algorithme de type CNN Transfer Learning.
 
 # Le jeu de données
 
